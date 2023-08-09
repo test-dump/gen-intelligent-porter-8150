@@ -1,0 +1,26 @@
+You can create a basic "Hello World" console application in C# using Visual Studio or any other IDE that supports C#. 
+
+Here's the simple C# code to print "Hello World":
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
+```
+
+Steps to create a console application in Visual Studio:
+
+1. Open Visual Studio.
+2. Click `File -> New -> Project`.
+3. In the new project dialog, select `Console App (.NET Core)` or `Console App (.NET Framework)` based on your .NET version.
+4. Name the project and set the location, then click `OK`.
+5. Replace the existing code with the "Hello World" code above.
+6. Run the program by pressing `F5` or `Debug -> Start Debugging`. 
+
+Your console should output `Hello World!`.
