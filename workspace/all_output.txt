@@ -1,0 +1,25 @@
+Here's how to create a "Hello World" console application in C#:
+
+Code:
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
+```
+
+Steps:
+
+1. Create a new file and name it `Program.cs`.
+2. Paste the code above into this file.
+3. Save the file.
+4. Open a command prompt (Terminal if you are on MacOS) and navigate to the directory containing your `Program.cs` file.
+5. Compiling: For Windows, use the csc compiler which is included with .NET Framework. For MacOS, use the mcs compiler included with the Mono Framework.
+6. Type `csc Program.cs` (Windows) or `mcs Program.cs` (MacOS) and press enter. This will create `Program.exe`.
+7. To run the program, type `Program` (Windows) or `mono Program.exe` (MacOS) and press enter.
+8. You will see "Hello, World!" printed in your console.
